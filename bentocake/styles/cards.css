@@ -1,0 +1,33 @@
+.card {
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.35);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+  }
+  
+  .card img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  h2 {
+    color: rgb(255, 255, 255); /* устанавливает белый цвет текста */
+    font-size: 24px; /* устанавливает размер шрифта 24 пикселя */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* добавляет тень текста */
+  }
+
+  .card p {
+    margin: 0;
+  }
+.card h3 {
+    color: rgba(88, 131, 251, 0.483);
+}
